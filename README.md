@@ -10,6 +10,11 @@ Follow these steps to run the installation on Terminal.
 sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && sudo chmod +x /usr/local/bin/thispy
 ```
 
+Run it in the directory where the Python file is located:
+
+```bash
+thispy
+```
 <details>
 <summary>📦 <ins>Make sure you have installed (Optional).<ins></summary>
   
@@ -35,11 +40,6 @@ sudo zypper install curl dialog
 
 </details>
 
-Run it in the directory where the Python file is located:
-
-```bash
-thispy
-```
 ---
 &nbsp;
 
