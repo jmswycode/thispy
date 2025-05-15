@@ -4,9 +4,7 @@
 
 ---
 
-## Installation
-
-### For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
+### Installation: For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
 
 ```bash
 sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && \
@@ -29,13 +27,10 @@ thispy
 
 ---
 
-### For Termux (Android)
-```bash
-pkg upgrade
-```
+### Installation: For Termux (Android)
 
 ```bash
-pkg install dialog curl python -y
+pkg upgrade -y && pkg install curl dialog -y
 ```
 
 ```bash
@@ -56,11 +51,5 @@ thispy
 * `bash`
 * `dialog`
 * `python`, `python3`, or `python2`
-
----
-
-## 📁 Description
-
-This script searches and runs `.py` files based on their last modified order. Ideal for a quick workflow in Python project directories.
 
 ---
