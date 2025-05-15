@@ -52,7 +52,7 @@ if [ ${#file_map[@]} -eq 0 ]; then
 fi
 
 # Display a dialog menu to select a Python file
-selected_number=$(dialog --clear --keep-tite --backtitle "$(realpath .)" --title "Run Python script file (thispy)" --menu "Please select:" 15 50 15 "${file_list[@]}" --stdout)
+selected_number=$(dialog --clear --keep-tite --backtitle "$(realpath .)" --title "Run the Python script files." --menu "Please select:" 15 50 15 "${file_list[@]}" --stdout)
 
 # Check if a selection was made
 if [ -n "$selected_number" ]; then
