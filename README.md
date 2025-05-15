@@ -3,42 +3,45 @@
 `thispy` is a tool to select and run Python files from the current directory using a dialog menu TUI. It sorts files by last modified time, helping you quickly access priority scripts. No need to type or copy-paste long filenames. keeping your clipboard free, especially if you're using the clipboard for something else.
 
 ---
-
-## Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
+## Quick Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
 Follow these steps to run the installation on Terminal.
 
 ```bash
-sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && chmod +x /usr/local/bin/thispy
+sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && sudo chmod +x /usr/local/bin/thispy
 ```
 
-### 📦 Make sure you have installed (optional):
 <details>
-<summary>[ Open ]</summary>
+<summary>📦 <ins>Make sure you have installed (Optional).<ins></summary>
   
 #### Debian/Ubuntu
 ```bash
-sudo apt install dialog
+sudo apt install curl dialog
 ```
 
 #### Fedora/RHEL
 ```bash
-sudo dnf install dialog
+sudo dnf install curl dialog
 ```
 
-#### Arch Linux
+#### Arch Linux/Manjaro
 ```bash
-sudo pacman -S dialog
+sudo pacman -S curl dialog
+```
+
+#### OpenSUSE
+```bash
+sudo zypper install curl dialog
 ```
 
 </details>
 
----
-Then run:
+Run it in the directory where the Python file is located:
 
 ```bash
 thispy
 ```
 ---
+&nbsp;
 
 ## For Termux (Android)
 Follow these steps to run the installation on Terminal.
@@ -51,16 +54,17 @@ pkg upgrade -y && pkg install curl dialog -y
 curl -o $PREFIX/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && chmod +x $PREFIX/bin/thispy
 ```
 
-Then run:
+Run it in the directory where the Python file is located:
 
 ```bash
 thispy
 ```
 
 ---
-
+&nbsp;
 ## ⚙️ Dependencies
 
 * `bash`
+* `curl`
 * `dialog`
 ---
