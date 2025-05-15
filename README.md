@@ -4,40 +4,44 @@
 
 ---
 
-### Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
-Follow these steps to run the installation script.
+## Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
+Follow these steps to run the installation on Terminal.
 
 ```bash
 sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && chmod +x /usr/local/bin/thispy
 ```
 
-> ### 📦 Make sure you have installed (optional):
-> 
->   Debian/Ubuntu
->   ```bash
->   sudo apt install dialog
->   ```
->   Fedora/RHEL
->  ```bash
->   sudo dnf install dialog
->   ```
->   Arch Linux
->   ```bash
->   sudo pacman -S dialog
-> ```
+### 📦 Make sure you have installed (optional):
+<details>
+<summary>[ Open ]</summary>
+  
+#### Debian/Ubuntu
+```bash
+sudo apt install dialog
+```
 
+#### Fedora/RHEL
+```bash
+sudo dnf install dialog
+```
 
+#### Arch Linux
+```bash
+sudo pacman -S dialog
+```
 
+</details>
+
+---
 Then run:
 
 ```bash
 thispy
 ```
-
 ---
 
-### Installation For Termux (Android)
-Follow these steps to run the installation script.
+## For Termux (Android)
+Follow these steps to run the installation on Terminal.
 
 ```bash
 pkg upgrade -y && pkg install curl dialog -y
