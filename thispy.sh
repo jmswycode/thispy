@@ -1,5 +1,5 @@
-#!/bin/bash
 #!/usr/bin/env bash
+#!/bin/bash
 #!/bin/sh
 #!/data/data/com.termux/files/usr/bin/bash
 
@@ -23,8 +23,13 @@ else
     exit 1
 fi
 
-# List all Python files in the current directory, sorted by modification time
-IFS=$'\n' files=($(ls -t ./*.py 2>/dev/null))
+
+# IFS=$'\n' files=($(find . -maxdepth 1 -name "*.py" -type f -printf "%T@ %p\n" 2>/dev/null | sort -nr | cut -d' ' -f2-))
+
+# List all Python files in the current directory, sorted by modification time cross-platform
+IFS=$'\n' files=($(find . -maxdepth 1 -name "*.py" -type f 2>/dev/null | while read -r f; do
+    echo "$(stat -c "%Y %n" "$f" 2>/dev/null || stat -f "%m %N" "$f")"
+done | sort -nr | cut -d' ' -f2-))
 
 # Initialize an array and an associative array to store file options
 file_list=()
