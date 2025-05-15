@@ -1,4 +1,4 @@
-# 🐍 Python Launcher TUI - thispy
+# 🐍 Running Python Scripts use TUI - thispy
 
 `thispy` is a tool to select and run Python files from the current directory using a dialog menu TUI. It sorts files by last modified time, helping you quickly access priority scripts. No need to type or copy-paste long filenames. keeping your clipboard free, especially if you're using the clipboard for something else.
 
