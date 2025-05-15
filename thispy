@@ -1,6 +1,8 @@
 #!/bin/bash
-#!/bin/sh
 #!/usr/bin/env bash
+#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/bash
+
 
 #-----------------------------------------------------------
 # The author generated this text in part with GPT‑4o, OpenAI’s large-scale
