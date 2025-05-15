@@ -4,20 +4,29 @@
 
 ---
 
-### Installation: For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
+### Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
+Follow these steps to run the installation script.
 
 ```bash
-sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && \
-sudo chmod +x /usr/local/bin/thispy
+sudo curl -o /usr/local/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && chmod +x /usr/local/bin/thispy
 ```
 
-> 📦 Make sure you have installed:
->
-> ```bash
-> sudo apt install dialog    # Debian/Ubuntu
-> sudo dnf install dialog    # Fedora/RHEL
-> sudo pacman -S dialog      # Arch Linux
+> ### 📦 Make sure you have installed (optional):
+> 
+>   Debian/Ubuntu
+>   ```bash
+>   sudo apt install dialog
+>   ```
+>   Fedora/RHEL
+>  ```bash
+>   sudo dnf install dialog
+>   ```
+>   Arch Linux
+>   ```bash
+>   sudo pacman -S dialog
 > ```
+
+
 
 Then run:
 
@@ -27,15 +36,15 @@ thispy
 
 ---
 
-### Installation: For Termux (Android)
+### Installation For Termux (Android)
+Follow these steps to run the installation script.
 
 ```bash
 pkg upgrade -y && pkg install curl dialog -y
 ```
 
 ```bash
-curl -o $PREFIX/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && \
-chmod +x $PREFIX/bin/thispy
+curl -o $PREFIX/bin/thispy https://raw.githubusercontent.com/jmswycode/thispy/main/thispy.sh && chmod +x $PREFIX/bin/thispy
 ```
 
 Then run:
@@ -50,6 +59,4 @@ thispy
 
 * `bash`
 * `dialog`
-* `python`, `python3`, or `python2`
-
 ---
