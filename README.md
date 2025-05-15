@@ -61,7 +61,6 @@ thispy
 ```
 
 ---
-&nbsp;
 ## ⚙️ Dependencies
 
 * `bash`
