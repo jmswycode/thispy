@@ -1,6 +1,6 @@
 # 🐍 ThisPy: Run Python Scripts with a TUI
 
-`thispy` is a tool to select and run Python files from the current directory using a dialog menu TUI. It sorts files by last modified time, helping you quickly access priority scripts. No need to type or copy-paste long filenames. keeping your clipboard free, especially if you're using the clipboard for something else.
+**ThisPy** is a simple bash tool for select and run Python files from the current directory using a TUI (Text User Interface). Files are automatically sorted by last modified time, making it easy to access priority scripts. There's no need to type or copy paste long filenames, this keeps the clipboard free for other tasks.
 
 ---
 ## Quick Installation For All Linux Distros (Debian, Ubuntu, Arch, Fedora, etc.)
