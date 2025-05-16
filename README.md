@@ -2,10 +2,7 @@
 
 <p align="center">
   <img src="preview/ubuntu.png" alt="Preview 1" width="400px">
-  <img src="preview/ubuntu.png" alt="Preview 2" width="400px">
 </p>
-
-
 
 
 **ThisPy** is a simple bash tool to select and run Python files from the current directory using a **TUI (Text User Interface)** within the Terminal.
