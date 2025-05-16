@@ -1,10 +1,11 @@
 <h1 align="center">ThisPy: Run Python Scripts with a TUI  </h1>
 
 <p align="center">
-  <img src="preview/ubuntu.png" alt="Preview PNG" width="400px">
+  <img src="preview/ubuntu.png" alt="Preview 1" width="400px">
+  <img src="preview/ubuntu.png" alt="Preview 2" width="400px">
 </p>
 
-![Banner](https://raw.githubusercontent.com/jmswycode/thispy/main/preview/ubuntu.png)
+
 
 
 **ThisPy** is a simple bash tool to select and run Python files from the current directory using a **TUI (Text User Interface)** within the Terminal.
