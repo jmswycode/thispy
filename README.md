@@ -1,4 +1,4 @@
-<h1 align="center">🐍 ThisPy: Run Python Scripts with a TUI  </h1>
+<h1 align="center">ThisPy: Run Python Scripts with a TUI  </h1>
 
 <p align="center">
   <img src="preview/ubuntu.png" alt="Preview PNG" width="400px">
